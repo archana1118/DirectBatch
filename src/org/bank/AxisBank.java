@@ -5,8 +5,16 @@ public class AxisBank {
 		AxisBank b = new AxisBank();
 		b.saving();
 		
+
+		AxisBank c = new AxisBank();
+		c.deposit();
+		
+		AxisBank cd = new AxisBank();
+		cd.deposit();
+
 		AxisBank d = new AxisBank();
 		d.deposit();
+
 
 }
 	public void deposit() { {System.out.println("1%");}	}
